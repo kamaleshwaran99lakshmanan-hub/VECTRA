@@ -19,18 +19,18 @@ const handlePlanRoute = async () => {
 
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/api/routes/calculate",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          vehicle_id: "V001",
-          destination: "E",
-        }),
-      }
-    );
+  `${import.meta.env.VITE_API_URL}/api/routes/calculate`,
+  {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      vehicle_id: "V001",
+      destination: "E",
+    }),
+  }
+);
 
     if (!response.ok) {
       throw new Error(`Route request failed: ${response.status}`);
