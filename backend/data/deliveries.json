@@ -1,0 +1,28 @@
+{
+  "deliveries": [
+    {
+      "id": "D001",
+      "vehicle_id": "V001",
+      "origin": "A",
+      "destination": "E",
+      "priority": "HIGH",
+      "status": "in_progress",
+      "cargo_type": "Medical Supplies",
+      "weight": 2500,
+      "created_at": "2026-09-02T14:45:24.006088",
+      "estimated_delivery": "2026-09-02T18:00:00"
+    },
+    {
+      "id": "D002",
+      "vehicle_id": "V002",
+      "origin": "A",
+      "destination": "C",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "cargo_type": "Food Items",
+      "weight": 3000,
+      "created_at": "2026-09-02T14:45:24.006099",
+      "estimated_delivery": "2026-09-02T20:00:00"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "roads": [
+    {
+      "id": "A-B",
+      "from": "A",
+      "to": "B",
+      "distance": 15.5,
+      "travel_time": 18.6,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 15,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 0,
+      "coordinates": [
+        {
+          "lat": 26.1445,
+          "lng": 91.7362
+        },
+        {
+          "lat": 26.148,
+          "lng": 91.745
+        },
+        {
+          "lat": 26.152,
+          "lng": 91.75
+        }
+      ]
+    },
+    {
+      "id": "B-C",
+      "from": "B",
+      "to": "C",
+      "distance": 12.8,
+      "travel_time": 15.4,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 1,
+      "coordinates": [
+        {
+          "lat": 26.152,
+          "lng": 91.75
+        },
+        {
+          "lat": 26.155,
+          "lng": 91.758
+        },
+        {
+          "lat": 26.158,
+          "lng": 91.765
+        }
+      ]
+    },
+    {
+      "id": "C-D",
+      "from": "C",
+      "to": "D",
+      "distance": 18.2,
+      "travel_time": 21.8,
+      "condition": "fair",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "speed_limit": 50,
+      "historical_incidents": 2,
+      "coordinates": [
+        {
+          "lat": 26.158,
+          "lng": 91.765
+        },
+        {
+          "lat": 26.162,
+          "lng": 91.775
+        },
+        {
+          "lat": 26.166,
+          "lng": 91.785
+        }
+      ]
+    },
+    {
+      "id": "D-E",
+      "from": "D",
+      "to": "E",
+      "distance": 10.5,
+      "travel_time": 12.6,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 0,
+      "coordinates": [
+        {
+          "lat": 26.166,
+          "lng": 91.785
+        },
+        {
+          "lat": 26.17,
+          "lng": 91.795
+        },
+        {
+          "lat": 26.173,
+          "lng": 91.8
+        }
+      ]
+    },
+    {
+      "id": "B-Y",
+      "from": "B",
+      "to": "Y",
+      "distance": 20.5,
+      "travel_time": 24.6,
+      "condition": "fair",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "speed_limit": 50,
+      "historical_incidents": 3,
+      "coordinates": [
+        {
+          "lat": 26.152,
+          "lng": 91.75
+        },
+        {
+          "lat": 26.145,
+          "lng": 91.76
+        },
+        {
+          "lat": 26.14,
+          "lng": 91.77
+        }
+      ]
+    },
+    {
+      "id": "Y-Z",
+      "from": "Y",
+      "to": "Z",
+      "distance": 14.2,
+      "travel_time": 17.0,
+      "condition": "fair",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 45,
+      "risk_level": "MEDIUM",
+      "speed_limit": 50,
+      "historical_incidents": 2,
+      "coordinates": [
+        {
+          "lat": 26.14,
+          "lng": 91.77
+        },
+        {
+          "lat": 26.145,
+          "lng": 91.785
+        },
+        {
+          "lat": 26.15,
+          "lng": 91.795
+        }
+      ]
+    },
+    {
+      "id": "Z-D",
+      "from": "Z",
+      "to": "D",
+      "distance": 8.5,
+      "travel_time": 10.2,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 0,
+      "coordinates": [
+        {
+          "lat": 26.15,
+          "lng": 91.795
+        },
+        {
+          "lat": 26.158,
+          "lng": 91.79
+        },
+        {
+          "lat": 26.166,
+          "lng": 91.785
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-09-02T14:45:24.004736"
+}

@@ -1,0 +1,47 @@
+{
+  "deliveries": [
+    {
+      "id": "D001",
+      "vehicle_id": "V001",
+      "origin": "A",
+      "destination": "E",
+      "priority": "HIGH",
+      "status": "in_progress",
+      "cargo_type": "Medical Supplies",
+      "weight": 2500,
+      "value": 150000,
+      "created_at": "2026-09-02T08:00:00.000Z",
+      "estimated_delivery": "2026-09-02T18:00:00.000Z",
+      "description": "Emergency medical supplies for Udalguri district hospital"
+    },
+    {
+      "id": "D002",
+      "vehicle_id": "V002",
+      "origin": "A",
+      "destination": "C",
+      "priority": "MEDIUM",
+      "status": "pending",
+      "cargo_type": "Food Items",
+      "weight": 3000,
+      "value": 75000,
+      "created_at": "2026-09-02T09:00:00.000Z",
+      "estimated_delivery": "2026-09-02T20:00:00.000Z",
+      "description": "Food supplies for Rangia market"
+    },
+    {
+      "id": "D003",
+      "vehicle_id": "V003",
+      "origin": "A",
+      "destination": "D",
+      "priority": "LOW",
+      "status": "pending",
+      "cargo_type": "Construction Materials",
+      "weight": 5000,
+      "value": 200000,
+      "created_at": "2026-09-02T10:00:00.000Z",
+      "estimated_delivery": "2026-09-03T10:00:00.000Z",
+      "description": "Construction materials for Tangla development project"
+    }
+  ],
+  "updated_at": "2026-09-02T10:30:00.000Z"
+}

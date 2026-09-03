@@ -1,0 +1,65 @@
+{
+  "incidents": [
+    {
+      "id": "INC001",
+      "type": "road_blockage",
+      "severity": "CRITICAL",
+      "description": "Road blockage on segment C-D due to fallen tree",
+      "location": {
+        "lat": 26.1620,
+        "lng": 91.7750
+      },
+      "affected_segments": ["C-D"],
+      "timestamp": "2026-09-02T10:30:00.000Z",
+      "active": false,
+      "risk_score": 95,
+      "resolved_at": null
+    },
+    {
+      "id": "INC002",
+      "type": "heavy_rain",
+      "severity": "HIGH",
+      "description": "Heavy rainfall causing flooding and reduced visibility on segment C-D",
+      "location": {
+        "lat": 26.1580,
+        "lng": 91.7650
+      },
+      "affected_segments": ["C-D"],
+      "timestamp": "2026-09-02T10:35:00.000Z",
+      "active": false,
+      "risk_score": 75,
+      "resolved_at": null
+    },
+    {
+      "id": "INC003",
+      "type": "road_degradation",
+      "severity": "MEDIUM",
+      "description": "Road degradation on segment B-C due to heavy traffic",
+      "location": {
+        "lat": 26.1550,
+        "lng": 91.7580
+      },
+      "affected_segments": ["B-C"],
+      "timestamp": "2026-09-02T09:00:00.000Z",
+      "active": false,
+      "risk_score": 65,
+      "resolved_at": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "id": "INC004",
+      "type": "accident",
+      "severity": "HIGH",
+      "description": "Minor accident reported on segment A-B near Nalbari",
+      "location": {
+        "lat": 26.1480,
+        "lng": 91.7450
+      },
+      "affected_segments": ["A-B"],
+      "timestamp": "2026-09-02T08:30:00.000Z",
+      "active": false,
+      "risk_score": 80,
+      "resolved_at": "2026-09-02T09:30:00.000Z"
+    }
+  ],
+  "updated_at": "2026-09-02T10:30:00.000Z"
+}

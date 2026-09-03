@@ -1,0 +1,53 @@
+{
+  "weather": [
+    {
+      "id": "W001",
+      "area": "Route A-E (Main Highway)",
+      "condition": "clear",
+      "temperature": 28,
+      "humidity": 65,
+      "wind_speed": 10,
+      "visibility": 10,
+      "pressure": 1012,
+      "timestamp": "2026-09-02T10:30:00.000Z",
+      "forecast": "Clear skies throughout the day with light breeze"
+    },
+    {
+      "id": "W002",
+      "area": "Alternative Route (Rural)",
+      "condition": "cloudy",
+      "temperature": 26,
+      "humidity": 70,
+      "wind_speed": 15,
+      "visibility": 8,
+      "pressure": 1010,
+      "timestamp": "2026-09-02T10:30:00.000Z",
+      "forecast": "Cloudy with possible light rain in the evening"
+    },
+    {
+      "id": "W003",
+      "area": "Region C-D (Rangia-Tangla)",
+      "condition": "moderate_rain",
+      "temperature": 24,
+      "humidity": 85,
+      "wind_speed": 20,
+      "visibility": 5,
+      "pressure": 1008,
+      "timestamp": "2026-09-02T10:30:00.000Z",
+      "forecast": "Moderate rainfall expected to continue throughout the day"
+    },
+    {
+      "id": "W004",
+      "area": "Region B-C (Nalbari-Rangia)",
+      "condition": "light_rain",
+      "temperature": 25,
+      "humidity": 80,
+      "wind_speed": 12,
+      "visibility": 7,
+      "pressure": 1009,
+      "timestamp": "2026-09-02T10:30:00.000Z",
+      "forecast": "Light rain with occasional heavy spells"
+    }
+  ],
+  "updated_at": "2026-09-02T10:30:00.000Z"
+}

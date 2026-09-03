@@ -644,3 +644,9 @@ button {
 .map-placeholder::after {
   display: none;
 }
+
+.route-error {
+  margin: 10px 17px 0;
+  color: #ef6c73;
+  font-size: 9px;
+}

@@ -1,0 +1,112 @@
+{
+  "routes": [
+    {
+      "id": "ROUTEB7041C",
+      "vehicle_id": "V001",
+      "segments": [
+        {
+          "coordinates": [
+            {
+              "lat": 26.1445,
+              "lng": 91.7362
+            },
+            {
+              "lat": 26.148,
+              "lng": 91.745
+            },
+            {
+              "lat": 26.152,
+              "lng": 91.75
+            }
+          ],
+          "id": "A-B",
+          "from_node": "A",
+          "to_node": "B",
+          "distance": 15.5,
+          "travel_time": 18.6,
+          "risk_score": 4.25,
+          "road_status": "normal",
+          "blocked": false,
+          "speed_limit": 60.0
+        },
+        {
+          "coordinates": [
+            {
+              "lat": 26.152,
+              "lng": 91.75
+            },
+            {
+              "lat": 26.155,
+              "lng": 91.758
+            },
+            {
+              "lat": 26.158,
+              "lng": 91.765
+            }
+          ],
+          "id": "B-C",
+          "from_node": "B",
+          "to_node": "C",
+          "distance": 12.8,
+          "travel_time": 15.4,
+          "risk_score": 5.75,
+          "road_status": "normal",
+          "blocked": false,
+          "speed_limit": 60.0
+        },
+        {
+          "coordinates": [
+            {
+              "lat": 26.158,
+              "lng": 91.765
+            },
+            {
+              "lat": 26.162,
+              "lng": 91.775
+            },
+            {
+              "lat": 26.166,
+              "lng": 91.785
+            }
+          ],
+          "id": "C-D",
+          "from_node": "C",
+          "to_node": "D",
+          "distance": 18.2,
+          "travel_time": 21.8,
+          "risk_score": 11.75,
+          "road_status": "normal",
+          "blocked": false,
+          "speed_limit": 60.0
+        },
+        {
+          "coordinates": [
+            {
+              "lat": 26.166,
+              "lng": 91.785
+            },
+            {
+              "lat": 26.17,
+              "lng": 91.795
+            },
+            {
+              "lat": 26.173,
+              "lng": 91.8
+            }
+          ],
+          "id": "D-E",
+          "from_node": "D",
+          "to_node": "E",
+          "distance": 10.5,
+          "travel_time": 12.6,
+          "risk_score": 4.25,
+          "road_status": "normal",
+          "blocked": false,
+          "speed_limit": 60.0
+        }
+      ],
+      "total_distance": 57.0,
+      "total_time": 68.39999999999999,
+      "total_risk": 6.5,
+      "status": "proposed",
+      "created_at": 

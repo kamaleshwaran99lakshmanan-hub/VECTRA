@@ -1,0 +1,145 @@
+{
+  "roads": [
+    {
+      "id": "A-B",
+      "from": "A",
+      "to": "B",
+      "distance": 15.5,
+      "travel_time": 18.6,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 15,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 0,
+      "coordinates": [
+        {"lat": 26.1445, "lng": 91.7362},
+        {"lat": 26.1480, "lng": 91.7450},
+        {"lat": 26.1520, "lng": 91.7500}
+      ],
+      "description": "National Highway from Guwahati to Nalbari"
+    },
+    {
+      "id": "B-C",
+      "from": "B",
+      "to": "C",
+      "distance": 12.8,
+      "travel_time": 15.4,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 1,
+      "coordinates": [
+        {"lat": 26.1520, "lng": 91.7500},
+        {"lat": 26.1550, "lng": 91.7580},
+        {"lat": 26.1580, "lng": 91.7650}
+      ],
+      "description": "Nalbari to Rangia road section"
+    },
+    {
+      "id": "C-D",
+      "from": "C",
+      "to": "D",
+      "distance": 18.2,
+      "travel_time": 21.8,
+      "condition": "fair",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "speed_limit": 50,
+      "historical_incidents": 2,
+      "coordinates": [
+        {"lat": 26.1580, "lng": 91.7650},
+        {"lat": 26.1620, "lng": 91.7750},
+        {"lat": 26.1660, "lng": 91.7850}
+      ],
+      "description": "Rangia to Tangla road section with curves"
+    },
+    {
+      "id": "D-E",
+      "from": "D",
+      "to": "E",
+      "distance": 10.5,
+      "travel_time": 12.6,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 0,
+      "coordinates": [
+        {"lat": 26.1660, "lng": 91.7850},
+        {"lat": 26.1700, "lng": 91.7950},
+        {"lat": 26.1730, "lng": 91.8000}
+      ],
+      "description": "Tangla to Udalguri final section"
+    },
+    {
+      "id": "B-Y",
+      "from": "B",
+      "to": "Y",
+      "distance": 20.5,
+      "travel_time": 24.6,
+      "condition": "fair",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "speed_limit": 50,
+      "historical_incidents": 3,
+      "coordinates": [
+        {"lat": 26.1520, "lng": 91.7500},
+        {"lat": 26.1450, "lng": 91.7600},
+        {"lat": 26.1400, "lng": 91.7700}
+      ],
+      "description": "Alternative route through rural areas"
+    },
+    {
+      "id": "Y-Z",
+      "from": "Y",
+      "to": "Z",
+      "distance": 14.2,
+      "travel_time": 17.0,
+      "condition": "fair",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 45,
+      "risk_level": "MEDIUM",
+      "speed_limit": 50,
+      "historical_incidents": 2,
+      "coordinates": [
+        {"lat": 26.1400, "lng": 91.7700},
+        {"lat": 26.1450, "lng": 91.7850},
+        {"lat": 26.1500, "lng": 91.7950}
+      ],
+      "description": "Alternative route through hilly terrain"
+    },
+    {
+      "id": "Z-D",
+      "from": "Z",
+      "to": "D",
+      "distance": 8.5,
+      "travel_time": 10.2,
+      "condition": "good",
+      "status": "normal",
+      "blocked": false,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "speed_limit": 60,
+      "historical_incidents": 0,
+      "coordinates": [
+        {"lat": 26.1500, "lng": 91.7950},
+        {"lat": 26.1580, "lng": 91.7900},
+        {"lat": 26.1660, "lng": 91.7850}
+      ],
+      "description": "Alternative route connecting to main road"
+    }
+  ],
+  "updated_at": "2026-09-02T10:30:00.000Z"
+}

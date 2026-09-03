@@ -1,0 +1,53 @@
+{
+  "vehicles": [
+    {
+      "id": "V001",
+      "name": "Truck-01",
+      "position": {
+        "lat": 26.1445,
+        "lng": 91.7362
+      },
+      "speed": 0,
+      "heading": 45,
+      "status": "active",
+      "route_id": "R001",
+      "current_segment": "A-B",
+      "destination": "E",
+      "fuel_level": 85,
+      "last_updated": "2026-09-02T10:30:00.000Z"
+    },
+    {
+      "id": "V002",
+      "name": "Truck-02",
+      "position": {
+        "lat": 26.1200,
+        "lng": 91.7000
+      },
+      "speed": 0,
+      "heading": 90,
+      "status": "idle",
+      "route_id": null,
+      "current_segment": null,
+      "destination": null,
+      "fuel_level": 92,
+      "last_updated": "2026-09-02T10:30:00.000Z"
+    },
+    {
+      "id": "V003",
+      "name": "Truck-03",
+      "position": {
+        "lat": 26.1600,
+        "lng": 91.7800
+      },
+      "speed": 0,
+      "heading": 180,
+      "status": "idle",
+      "route_id": null,
+      "current_segment": null,
+      "destination": null,
+      "fuel_level": 78,
+      "last_updated": "2026-09-02T10:30:00.000Z"
+    }
+  ],
+  "updated_at": "2026-09-02T10:30:00.000Z"
+}

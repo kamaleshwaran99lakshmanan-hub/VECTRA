@@ -1,0 +1,25 @@
+{
+  "weather": [
+    {
+      "id": "W001",
+      "area": "Route A-E",
+      "condition": "clear",
+      "temperature": 28,
+      "humidity": 65,
+      "wind_speed": 10,
+      "visibility": 10,
+      "timestamp": "2026-09-02T14:45:24.005656"
+    },
+    {
+      "id": "W002",
+      "area": "Alternative Route",
+      "condition": "cloudy",
+      "temperature": 26,
+      "humidity": 70,
+      "wind_speed": 15,
+      "visibility": 8,
+      "timestamp": "2026-09-02T14:45:24.005665"
+    }
+  ],
+  "updated_at": "2026-09-02T14:45:24.005670"
+}

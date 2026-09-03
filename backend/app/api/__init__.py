@@ -1,0 +1,7 @@
+"""
+API routes for NER-LOGIX
+"""
+
+from app.api.routes import vehicles, incidents, risk, routes, simulation
+
+__all__ = ["vehicles", "incidents", "risk", "routes", "simulation"]

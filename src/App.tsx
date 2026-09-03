@@ -1,6 +1,51 @@
 import './App.css'
+import { useState } from "react";
 import MapView from "./components/MapView";
 function App() {
+  const [routeSegments, setRouteSegments] = useState<
+  {
+    id: string;
+    coordinates: { lat: number; lng: number }[];
+    risk_score: number;
+    blocked: boolean;
+  }[]
+>([]);
+
+const [isPlanning, setIsPlanning] = useState(false);
+const [routeError, setRouteError] = useState("");
+const handlePlanRoute = async () => {
+  setIsPlanning(true);
+  setRouteError("");
+
+  try {
+    const response = await fetch(
+      "http://127.0.0.1:8000/api/routes/calculate",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          vehicle_id: "V001",
+          destination: "E",
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Route request failed: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    setRouteSegments(data.segments ?? []);
+  } catch (error) {
+    console.error(error);
+    setRouteError("Unable to calculate route.");
+  } finally {
+    setIsPlanning(false);
+  }
+};
   return (
     <div className="app">
       <aside className="sidebar">
@@ -97,8 +142,8 @@ function App() {
                 </div>
               </div>
 
-            <div className="map-placeholder">
-  <MapView />
+           <div className="map-placeholder">
+  <MapView routeSegments={routeSegments} />
 </div>
             </section>
 
@@ -125,9 +170,19 @@ function App() {
                 <input type="datetime-local" />
               </div>
 
-              <button className="primary-button">
-                Plan Route
-              </button>
+              <button
+  className="primary-button"
+  onClick={handlePlanRoute}
+  disabled={isPlanning}
+>
+  {isPlanning ? "Planning..." : "Plan Route"}
+</button>
+
+{routeError && (
+  <p className="route-error">
+    {routeError}
+  </p>
+)}
 
               <div className="recommendation">
                 <span>RECOMMENDED ACTION</span>
